@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h2>Tratamento String</h2>
+    <main>
+
+        <!-- Minusculo pra Maiusculo -->
+        <fieldset>
+            <label for="minusculoInput">Minusculo</label>
+            <input type="text" id="minusculoInput" placeholder="Minusculo">
+            <button onclick="converterMinToMai()">Converter</button>
+            <label for="maiusculoOutput">Maiusculo</label>
+            <input type="text" id="maiusculoOutput">
+        </fieldset>
+
+        <!-- Maiusculo pra Minusculo -->
+        <fieldset>
+            <label for="maiusculoInput">Maiusculo</label>
+            <input type="text" id="maiusculoInput">
+            <button onclick="converterMaiToMin()">Converter</button>
+            <label for="minusculoOutput">Minusculo</label>
+            <input type="text" id="minusculoOutput">
+        </fieldset>
+
+        <!-- Contar caracteres -->
+        <fieldset>
+            <label for="palavraInput">Palavra</label>
+            <input type="text" id="palavraInput">
+            <button onclick="contarCaracteres()">Contar caracteres</button>
+            <p id="resultado">A palavra ? tem ? caracteres</p>
+        </fieldset>
+
+        <!-- Remover espaço do texto -->
+        <fieldset>
+            <label for="textoComEspacoInput">Texto</label>
+            <input type="text" id="textoComEspacoInput">
+            <button onclick="removerEspaco()">Remover espaço</button>
+            <label for="textoSemEspacoOutput">Texto sem espaço</label>
+            <input type="text" id="textoSemEspacoOutput">
+        </fieldset>
+
+        <!-- Trocar 'a' por '*' -->
+        <fieldset>
+            <label for="palavraInput2">Palavra</label>
+            <input type="text" id="palavraInput2">
+            <button onclick="trocarAporAsterisco()">Trocar</button>
+            <label for="palavraComAsteriscoOutput">Palavra com 'a' trocado por *</label>
+            <input type="text" id="palavraComAsteriscoOutput">
+        </fieldset>
+
+
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

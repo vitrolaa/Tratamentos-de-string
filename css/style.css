@@ -1,0 +1,51 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: calc(100% - 110px); /* Ajuste conforme necessário */
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background-color: aliceblue;
+}
+
+#resultado {
+    margin-top: 0;
+}
+
+/* Adicione estilos adicionais conforme necessário */
